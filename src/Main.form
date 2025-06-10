@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="create_event_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ae;&#x3ba;&#x3b7; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3bf;&#x3c2;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="create_event_dialogWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="event_date_choοser" min="-2" pref="267" max="-2" attributes="0"/>
+                      <Component id="title_of_event" min="-2" pref="267" max="-2" attributes="0"/>
+                      <Component id="desc_label" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <Component id="title_label" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" alignment="0" min="-2" pref="519" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="49" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="saveButton1" min="-2" pref="122" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                  <Component id="cancelButton1" min="-2" pref="122" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="title_label" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="title_of_event" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="event_date_choοser" min="-2" pref="31" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="desc_label" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="146" max="-2" attributes="0"/>
+                          <EmptySpace pref="78" max="32767" attributes="0"/>
+                          <Component id="cancelButton1" min="-2" pref="44" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="saveButton1" min="-2" pref="44" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="title_label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="20" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x3a4;&#x3af;&#x3c4;&#x3bb;&#x3bf;&#x3c2;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="title_of_event">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x397;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1;:"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="event_date_cho&#x3bf;ser">
+        </Component>
+        <Component class="javax.swing.JLabel" name="desc_label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x39b;&#x3b5;&#x3c0;&#x3c4;&#x3bf;&#x3bc;&#x3ad;&#x3c1;&#x3b5;&#x3b9;&#x3b5;&#x3c2;:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="desc_of_event">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="wrapStyleWord" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="SaveButton" name="saveButton1">
+          <Properties>
+            <Property name="radius" type="int" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="CancelButton" name="cancelButton1">
+          <Properties>
+            <Property name="radius" type="int" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="confirmation_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3c4;&#x3c5;&#x3c7;&#x3ae;&#x3c2; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ae;&#x3ba;&#x3b7; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3bf;&#x3c2;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="confirmation_dialogWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace pref="289" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new Color(115,219,146)" type="code"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a4;&#x3bf; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3c4;&#x3ad;&#x3b8;&#x3b7;&#x3ba;&#x3b5; &#x3bc;&#x3b5; &#x3b5;&#x3c0;&#x3b9;&#x3c4;&#x3c5;&#x3c7;&#x3af;&#x3b1;!"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="error_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x3a3;&#x3c6;&#x3ac;&#x3bb;&#x3bc;&#x3b1;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="49" max="-2" attributes="0"/>
+                  <EmptySpace pref="207" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a3;&#x3c5;&#x3bc;&#x3c0;&#x3bb;&#x3b7;&#x3c1;&#x3ce;&#x3c3;&#x3c4;&#x3b5; &#x3cc;&#x3bb;&#x3b1; &#x3c4;&#x3b1; &#x3b1;&#x3c0;&#x3b1;&#x3c1;&#x3b1;&#x3af;&#x3c4;&#x3b7;&#x3c4;&#x3b1; &#x3c0;&#x3b5;&#x3b4;&#x3af;&#x3b1;!"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="edit_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x3c0;&#x3b5;&#x3be;&#x3b5;&#x3c1;&#x3b3;&#x3b1;&#x3c3;&#x3af;&#x3b1; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3bf;&#x3c2;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="event_date_choοser1" alignment="0" min="-2" pref="267" max="-2" attributes="0"/>
+                      <Component id="title_of_event1" alignment="0" min="-2" pref="267" max="-2" attributes="0"/>
+                      <Component id="desc_label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="title_label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" alignment="0" min="-2" pref="519" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="49" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="saveButton2" min="-2" pref="122" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                  <Component id="cancelButton2" min="-2" pref="122" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="title_label1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="title_of_event1" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="event_date_choοser1" min="-2" pref="31" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="desc_label1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" pref="146" max="-2" attributes="0"/>
+                          <EmptySpace pref="78" max="32767" attributes="0"/>
+                          <Component id="cancelButton2" min="-2" pref="44" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="saveButton2" min="-2" pref="44" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="CancelButton" name="cancelButton2">
+          <Properties>
+            <Property name="radius" type="int" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="title_label1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="20" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x3a4;&#x3af;&#x3c4;&#x3bb;&#x3bf;&#x3c2;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="title_of_event1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x397;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1;:"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="event_date_cho&#x3bf;ser1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="desc_label1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x39b;&#x3b5;&#x3c0;&#x3c4;&#x3bf;&#x3bc;&#x3ad;&#x3c1;&#x3b5;&#x3b9;&#x3b5;&#x3c2;:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="desc_of_event1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="SaveButton" name="saveButton2">
+          <Properties>
+            <Property name="radius" type="int" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButton2ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="save_edit_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3c4;&#x3c5;&#x3c7;&#x3ae;&#x3c2; &#x3b5;&#x3c0;&#x3b5;&#x3be;&#x3b5;&#x3c1;&#x3b3;&#x3b1;&#x3c3;&#x3af;&#x3b1; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3bf;&#x3c2;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="save_edit_dialogWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="38" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="164" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new Color(115,219,146)" type="code"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x39f;&#x3b9; &#x3b1;&#x3bb;&#x3bb;&#x3b1;&#x3b3;&#x3ad;&#x3c2; &#x3c3;&#x3b1;&#x3c2; &#x3b1;&#x3c0;&#x3bf;&#x3b8;&#x3b7;&#x3ba;&#x3b5;&#x3cd;&#x3c4;&#x3b7;&#x3ba;&#x3b1;&#x3bd; &#x3b5;&#x3c0;&#x3b9;&#x3c4;&#x3c5;&#x3c7;&#x3ce;&#x3c2;!"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="delete_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x394;&#x399;&#x391;&#x393;&#x3a1;&#x391;&#x3a6;&#x397; &#x393;&#x395;&#x393;&#x39f;&#x39d;&#x39f;&#x3a4;&#x39f;&#x3a3;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace pref="37" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel8" min="-2" pref="43" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="yes_Button1" min="-2" pref="122" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="no_Button1" min="-2" pref="122" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel7" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="82" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="yes_Button1" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="no_Button1" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x398;&#x3ad;&#x3bb;&#x3b5;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c8;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2;;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/error_icon.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="Yes_Button" name="yes_Button1">
+          <Properties>
+            <Property name="radius" type="int" value="11"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yes_Button1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="No_Button" name="no_Button1">
+          <Properties>
+            <Property name="radius" type="int" value="11"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="no_Button1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="deleted_event_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x394;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3b1;&#x3c6;&#x3ae; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3bf;&#x3c2;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="100" max="32767" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace pref="148" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a4;&#x3bf; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c6;&#x3b7;&#x3ba;&#x3b5;."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="todays_events_notification">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x399;&#x394;&#x39f;&#x3a0;&#x39f;&#x399;&#x397;&#x3a3;&#x397; &#x393;&#x395;&#x393;&#x39f;&#x39d;&#x39f;&#x3a4;&#x3a9;&#x39d;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="jLabel10" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="147" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/ringing_bell.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x3a5;&#x3c0;&#x3ac;&#x3c1;&#x3c7;&#x3bf;&#x3c5;&#x3bd; &#x3bd;&#x3ad;&#x3b1; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3b1; &#x3b3;&#x3b9;&#x3b1; &#x3c3;&#x3ae;&#x3bc;&#x3b5;&#x3c1;&#x3b1;! "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x3a0;&#x3b7;&#x3b3;&#x3b1;&#x3af;&#x3bd;&#x3c4;&#x3b5; &#x3c3;&#x3c4;&#x3b7;&#x3bd; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1; &#x3c4;&#x3c9;&#x3bd; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3c9;&#x3bd; &#x3b3;&#x3b9;&#x3b1; &#x3bd;&#x3b1; &#x3c4;&#x3b1; &#x3b4;&#x3b5;&#x3af;&#x3c4;&#x3b5;."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="confirmation_dialog1">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3c4;&#x3c5;&#x3c7;&#x3ae;&#x3c2; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ae;&#x3ba;&#x3b7; &#x3c3;&#x3c4;&#x3bf;&#x3b9;&#x3c7;&#x3b5;&#x3af;&#x3c9;&#x3bd;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="confirmation_dialog1WindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                  <Component id="jLabel12" min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace pref="153" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new Color(115,219,146)" type="code"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a4;&#x3b1; &#x3c3;&#x3c4;&#x3bf;&#x3b9;&#x3c7;&#x3b5;&#x3af;&#x3b1; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3c4;&#x3ad;&#x3b8;&#x3b7;&#x3ba;&#x3b1;&#x3bd; &#x3bc;&#x3b5; &#x3b5;&#x3c0;&#x3b9;&#x3c4;&#x3c5;&#x3c7;&#x3af;&#x3b1;!"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="friends_delete">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x394;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3b1;&#x3c6;&#x3ae; &#x3c3;&#x3c4;&#x3bf;&#x3b9;&#x3c7;&#x3b5;&#x3af;&#x3c9;&#x3bd;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="surnameLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="nameLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="namefield" min="-2" pref="155" max="-2" attributes="0"/>
+                      <Component id="surnamefield" min="-2" pref="155" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="88" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="deleteButton22" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="namefield" min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="nameLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="surnamefield" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="surnameLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="deleteButton22" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="72" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="DeleteButton2" name="deleteButton22">
+          <Properties>
+            <Property name="radius" type="int" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButton22ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="nameLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new Font(&quot;Arvo&quot;, Font.PLAIN, 14)" type="code"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x38c;&#x3bd;&#x3bf;&#x3bc;&#x3b1;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="surnameLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new Font(&quot;Arvo&quot;, Font.PLAIN, 14)" type="code"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3af;&#x3b8;&#x3b5;&#x3c4;&#x3bf;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="namefield">
+        </Component>
+        <Component class="javax.swing.JTextField" name="surnamefield">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="deleted_person">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x3c0;&#x3b9;&#x3c4;&#x3c5;&#x3c7;&#x3ae;&#x3c2; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3b1;&#x3c6;&#x3ae; &#x3b1;&#x3c4;&#x3cc;&#x3bc;&#x3bf;&#x3c5;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                  <Component id="jLabel15" min="-2" pref="231" max="-2" attributes="0"/>
+                  <EmptySpace pref="91" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                  <Component id="jLabel15" min="-2" pref="44" max="-2" attributes="0"/>
+                  <EmptySpace pref="149" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a4;&#x3bf; &#x3ac;&#x3c4;&#x3bf;&#x3bc;&#x3bf; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c6;&#x3b7;&#x3ba;&#x3b5;."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="fail_del">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x391;&#x3c0;&#x3bf;&#x3c4;&#x3c5;&#x3c7;&#x3af;&#x3b1; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3b1;&#x3c6;&#x3ae;&#x3c2;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="37" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                  <Component id="jLabel16" min="-2" pref="38" max="-2" attributes="0"/>
+                  <EmptySpace pref="139" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x394;&#x3b5;&#x3bd; &#x3b2;&#x3c1;&#x3ad;&#x3b8;&#x3b7;&#x3ba;&#x3b5; &#x3ac;&#x3c4;&#x3bf;&#x3bc;&#x3bf; &#x3bc;&#x3b5; &#x3c4;&#x3b1; &#x3c3;&#x3c5;&#x3b3;&#x3ba;&#x3b5;&#x3ba;&#x3c1;&#x3b9;&#x3bc;&#x3ad;&#x3bd;&#x3b1; &#x3c3;&#x3c4;&#x3bf;&#x3b9;&#x3c7;&#x3b5;&#x3af;&#x3b1;."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="adeios">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x391;&#x394;&#x395;&#x399;&#x39f;&#x3a3; &#x3a0;&#x399;&#x39d;&#x391;&#x39a;&#x391;&#x3a3;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="99" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                  <Component id="jLabel17" min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace pref="140" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x39f; &#x3c0;&#x3af;&#x3bd;&#x3b1;&#x3ba;&#x3b1;&#x3c2; &#x3b5;&#x3af;&#x3bd;&#x3b1;&#x3b9; &#x3ac;&#x3b4;&#x3b5;&#x3b9;&#x3bf;&#x3c2;!"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="delete2_dialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x394;&#x399;&#x391;&#x393;&#x3a1;&#x391;&#x3a6;&#x397; &#x391;&#x3a4;&#x39f;&#x39c;&#x39f;&#x3a5;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="yes_Button2" min="-2" pref="87" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <Component id="no_Button2" min="-2" pref="90" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="34" max="32767" attributes="0"/>
+                  <Component id="jLabel13" min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel13" max="32767" attributes="0"/>
+                      <Component id="jLabel14" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="82" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="yes_Button2" alignment="0" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="no_Button2" alignment="0" min="-2" pref="39" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/error_icon.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x398;&#x3ad;&#x3bb;&#x3b5;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c8;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3c3;&#x3c5;&#x3b3;&#x3ba;&#x3b5;&#x3ba;&#x3c1;&#x3b9;&#x3bc;&#x3ad;&#x3bd;&#x3bf; &#x3ac;&#x3c4;&#x3bf;&#x3bc;&#x3bf;;"/>
+          </Properties>
+        </Component>
+        <Component class="Yes_Button" name="yes_Button2">
+          <Properties>
+            <Property name="radius" type="int" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yes_Button2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="No_Button" name="no_Button2">
+          <Properties>
+            <Property name="radius" type="int" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="no_Button2ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="happy_birthday">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x399;&#x394;&#x39f;&#x3a0;&#x39f;&#x399;&#x397;&#x3a3;&#x397; &#x393;&#x395;&#x39d;&#x395;&#x398;&#x39b;&#x399;&#x3a9;&#x39d;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="confetti_label" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="euxes" min="-2" pref="316" max="-2" attributes="0"/>
+                              <Component id="gen" min="-2" pref="393" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                          <Component id="xronia" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="66" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Component id="xronia" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="gen" min="-2" pref="32" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="euxes" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                          <Component id="confetti_label" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="188" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="confetti_label">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/confetti.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="xronia">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a7;&#x3c1;&#x3cc;&#x3bd;&#x3b9;&#x3b1; &#x3c0;&#x3bf;&#x3bb;&#x3bb;&#x3ac;!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="gen">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="euxes">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x395;&#x3af;&#x3bd;&#x3b1;&#x3b9; &#x3b7; &#x3c4;&#x3ad;&#x3bb;&#x3b5;&#x3b9;&#x3b1; &#x3b5;&#x3c5;&#x3ba;&#x3b1;&#x3b9;&#x3c1;&#x3af;&#x3b1; &#x3bd;&#x3b1; &#x3c3;&#x3c4;&#x3b5;&#x3af;&#x3bb;&#x3b5;&#x3b9;&#x3c2; &#x3c4;&#x3b9;&#x3c2; &#x3b5;&#x3c5;&#x3c7;&#x3ad;&#x3c2; &#x3c3;&#x3bf;&#x3c5;!"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="happy_nameday">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x395;&#x399;&#x394;&#x39f;&#x3a0;&#x39f;&#x399;&#x397;&#x3a3;&#x397; &#x39f;&#x39d;&#x39f;&#x39c;&#x391;&#x3a3;&#x3a4;&#x399;&#x39a;&#x397;&#x3a3; &#x395;&#x39f;&#x3a1;&#x3a4;&#x397;&#x3a3;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="confetti_label1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="euxes1" min="-2" max="-2" attributes="0"/>
+                              <Component id="gio" min="-2" pref="381" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="xronia1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="79" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                  <Component id="xronia1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Component id="gio" min="-2" pref="32" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="euxes1" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                          <Component id="confetti_label1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="190" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="confetti_label1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/confetti.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="xronia1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a7;&#x3c1;&#x3cc;&#x3bd;&#x3b9;&#x3b1; &#x3c0;&#x3bf;&#x3bb;&#x3bb;&#x3ac;!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="gio">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="euxes1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x395;&#x3af;&#x3bd;&#x3b1;&#x3b9; &#x3b7; &#x3c4;&#x3ad;&#x3bb;&#x3b5;&#x3b9;&#x3b1; &#x3b5;&#x3c5;&#x3ba;&#x3b1;&#x3b9;&#x3c1;&#x3af;&#x3b1; &#x3bd;&#x3b1; &#x3c3;&#x3c4;&#x3b5;&#x3af;&#x3bb;&#x3b5;&#x3b9;&#x3c2; &#x3c4;&#x3b9;&#x3c2; &#x3b5;&#x3c5;&#x3c7;&#x3ad;&#x3c2; &#x3c3;&#x3bf;&#x3c5;!"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="info">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="&#x3a0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3af;&#x3b5;&#x3c2; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b7;&#x3bd; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae;"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane2" alignment="0" pref="560" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane2" alignment="0" pref="399" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="getBackground()" type="code"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="&#x39a;&#x3b1;&#x3bb;&#x3ce;&#x3c2; &#x3ae;&#x3c1;&#x3b8;&#x3b1;&#x3c4;&#x3b5; &#x3c3;&#x3c4;&#x3bf; &#x397;&#x39c;&#x395;&#x3a1;&#x39f;&#x39b;&#x39f;&#x393;&#x399;&#x39f;&#x39d; 2.0!&#xa;&#xa;&#x391;&#x3c5;&#x3c4;&#x3cc; &#x3c4;&#x3bf; &#x3b7;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3cc; &#x3b7;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bb;&#x3cc;&#x3b3;&#x3b9;&#x3bf; &#x3c3;&#x3b1;&#x3c2; &#x3b5;&#x3c0;&#x3b9;&#x3c4;&#x3c1;&#x3ad;&#x3c0;&#x3b5;&#x3b9; &#x3bd;&#x3b1; &#x3bf;&#x3c1;&#x3b3;&#x3b1;&#x3bd;&#x3ce;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3ba;&#x3b1;&#x3b9; &#x3bd;&#x3b1; &#x3c0;&#x3b1;&#x3c1;&#x3b1;&#x3ba;&#x3bf;&#x3bb;&#x3bf;&#x3c5;&#x3b8;&#x3ae;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3b1; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3b1; &#x3c3;&#x3b1;&#x3c2; &#x3bc;&#x3b5; &#x3b5;&#x3cd;&#x3ba;&#x3bf;&#x3bb;&#x3bf; &#x3ba;&#x3b1;&#x3b9; &#x3b3;&#x3c1;&#x3ae;&#x3b3;&#x3bf;&#x3c1;&#x3bf; &#x3c4;&#x3c1;&#x3cc;&#x3c0;&#x3bf;.&#xa;&#xa;&#x393;&#x3b9;&#x3b1; &#x3bd;&#x3b1; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ad;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3ad;&#x3bd;&#x3b1; &#x3bd;&#x3ad;&#x3bf; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2;, &#x3b1;&#x3c0;&#x3bb;&#x3ce;&#x3c2; &#x3c0;&#x3b1;&#x3c4;&#x3ae;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3ba;&#x3bf;&#x3c5;&#x3bc;&#x3c0;&#x3af; &quot;+&quot; &#x3ba;&#x3b1;&#x3b9; &#x3b5;&#x3c0;&#x3b9;&#x3bb;&#x3ad;&#x3be;&#x3c4;&#x3b5; &#x3c4;&#x3b7;&#x3bd; &#x3b7;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b7;&#x3bd; &#x3bf;&#x3c0;&#x3bf;&#x3af;&#x3b1; &#x3b8;&#x3ad;&#x3bb;&#x3b5;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3ba;&#x3b1;&#x3c4;&#x3b1;&#x3c7;&#x3c9;&#x3c1;&#x3af;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2;. &#x39c;&#x3cc;&#x3bb;&#x3b9;&#x3c2; &#x3c4;&#x3bf; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3c4;&#x3b5;&#x3b8;&#x3b5;&#x3af;, &#x3b8;&#x3b1; &#x3b5;&#x3bc;&#x3c6;&#x3b1;&#x3bd;&#x3af;&#x3b6;&#x3b5;&#x3c4;&#x3b1;&#x3b9; &#x3c3;&#x3c4;&#x3b7;&#x3bd; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1; &quot;&#x393;&#x395;&#x393;&#x39f;&#x39d;&#x39f;&#x3a4;&#x391;&quot;, &#x3cc;&#x3c0;&#x3bf;&#x3c5; &#x3bc;&#x3c0;&#x3bf;&#x3c1;&#x3b5;&#x3af;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3b4;&#x3b5;&#x3af;&#x3c4;&#x3b5; &#x3cc;&#x3bb;&#x3b1; &#x3c4;&#x3b1; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3b1; &#x3c0;&#x3bf;&#x3c5; &#x3ad;&#x3c7;&#x3b5;&#x3c4;&#x3b5; &#x3ba;&#x3b1;&#x3c4;&#x3b1;&#x3c7;&#x3c9;&#x3c1;&#x3af;&#x3c3;&#x3b5;&#x3b9;.&#xa;&#xa;&#x393;&#x3b9;&#x3b1; &#x3bd;&#x3b1; &#x3c4;&#x3c1;&#x3bf;&#x3c0;&#x3bf;&#x3c0;&#x3bf;&#x3b9;&#x3ae;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3b9;&#x3c2; &#x3c0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3af;&#x3b5;&#x3c2; &#x3b5;&#x3bd;&#x3cc;&#x3c2; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3bf;&#x3c2;, &#x3bc;&#x3c0;&#x3bf;&#x3c1;&#x3b5;&#x3af;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3c7;&#x3c1;&#x3b7;&#x3c3;&#x3b9;&#x3bc;&#x3bf;&#x3c0;&#x3bf;&#x3b9;&#x3ae;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &quot;&#x3bc;&#x3bf;&#x3bb;&#x3c5;&#x3b2;&#x3ac;&#x3ba;&#x3b9;&quot; &#x3c0;&#x3bf;&#x3c5; &#x3b2;&#x3c1;&#x3af;&#x3c3;&#x3ba;&#x3b5;&#x3c4;&#x3b1;&#x3b9; &#x3bc;&#x3ad;&#x3c3;&#x3b1; &#x3c3;&#x3c4;&#x3bf; &#x3c0;&#x3bb;&#x3b1;&#x3af;&#x3c3;&#x3b9;&#x3bf; &#x3ba;&#x3ac;&#x3b8;&#x3b5; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3bf;&#x3c2;. &#x391;&#x3bd; &#x3b8;&#x3ad;&#x3bb;&#x3b5;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c8;&#x3b5;&#x3c4;&#x3b5; &#x3ad;&#x3bd;&#x3b1; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2;, &#x3c7;&#x3c1;&#x3b7;&#x3c3;&#x3b9;&#x3bc;&#x3bf;&#x3c0;&#x3bf;&#x3b9;&#x3ae;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3ba;&#x3cc;&#x3ba;&#x3ba;&#x3b9;&#x3bd;&#x3bf; &#x3ba;&#x3b1;&#x3bb;&#x3ac;&#x3b8;&#x3b9; &#x3c0;&#x3bf;&#x3c5; &#x3b2;&#x3c1;&#x3af;&#x3c3;&#x3ba;&#x3b5;&#x3c4;&#x3b1;&#x3b9; &#x3b5;&#x3c0;&#x3af;&#x3c3;&#x3b7;&#x3c2; &#x3bc;&#x3ad;&#x3c3;&#x3b1; &#x3c3;&#x3c4;&#x3bf; &#x3af;&#x3b4;&#x3b9;&#x3bf; &#x3c0;&#x3bb;&#x3b1;&#x3af;&#x3c3;&#x3b9;&#x3bf;.&#xa;&#xa;&#x397; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae; &#x3bc;&#x3c0;&#x3bf;&#x3c1;&#x3b5;&#x3af; &#x3b5;&#x3c0;&#x3af;&#x3c3;&#x3b7;&#x3c2; &#x3bd;&#x3b1; &#x3c3;&#x3b1;&#x3c2; &#x3b5;&#x3b9;&#x3b4;&#x3bf;&#x3c0;&#x3bf;&#x3b9;&#x3ae;&#x3c3;&#x3b5;&#x3b9; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b1; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3b1; &#x3c0;&#x3bf;&#x3c5; &#x3b5;&#x3af;&#x3bd;&#x3b1;&#x3b9; &#x3c0;&#x3c1;&#x3bf;&#x3b3;&#x3c1;&#x3b1;&#x3bc;&#x3bc;&#x3b1;&#x3c4;&#x3b9;&#x3c3;&#x3bc;&#x3ad;&#x3bd;&#x3b1; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b7;&#x3bd; &#x3c4;&#x3c1;&#x3ad;&#x3c7;&#x3bf;&#x3c5;&#x3c3;&#x3b1; &#x3b7;&#x3bc;&#x3ad;&#x3c1;&#x3b1;. &#x388;&#x3c4;&#x3c3;&#x3b9;, &#x3b4;&#x3b5;&#x3bd; &#x3b8;&#x3b1; &#x3c7;&#x3ac;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3ba;&#x3b1;&#x3bc;&#x3af;&#x3b1; &#x3c3;&#x3b7;&#x3bc;&#x3b1;&#x3bd;&#x3c4;&#x3b9;&#x3ba;&#x3ae; &#x3b7;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1;!&#xa;&#xa;&#x395;&#x3c0;&#x3b9;&#x3c0;&#x3bb;&#x3ad;&#x3bf;&#x3bd;, &#x3bc;&#x3c0;&#x3bf;&#x3c1;&#x3b5;&#x3af;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ad;&#x3c3;&#x3b5;&#x3c4;&#x3b5; &#x3c4;&#x3bf;&#x3c5;&#x3c2; &#x3c6;&#x3af;&#x3bb;&#x3bf;&#x3c5;&#x3c2; &#x3c3;&#x3b1;&#x3c2; &#x3bc;&#x3ad;&#x3c3;&#x3c9; &#x3c4;&#x3b7;&#x3c2; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1;&#x3c2; &quot;&#x3a6;&#x39f;&#x3a1;&#x39c;&#x391;&quot;. &#x39a;&#x3ac;&#x3b8;&#x3b5; &#x3bd;&#x3ad;&#x3bf;&#x3c2; &#x3c6;&#x3af;&#x3bb;&#x3bf;&#x3c2; &#x3c0;&#x3bf;&#x3c5; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3c4;&#x3af;&#x3b8;&#x3b5;&#x3c4;&#x3b1;&#x3b9; &#x3b5;&#x3bc;&#x3c6;&#x3b1;&#x3bd;&#x3af;&#x3b6;&#x3b5;&#x3c4;&#x3b1;&#x3b9; &#x3c3;&#x3c4;&#x3b7;&#x3bd; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1; &quot;&#x39f;&#x399; &#x3a6;&#x399;&#x39b;&#x39f;&#x399; &#x39c;&#x39f;&#x3a5;&quot;. &#x397; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae; &#x3b8;&#x3b1; &#x3c3;&#x3b1;&#x3c2; &#x3c3;&#x3c4;&#x3b5;&#x3af;&#x3bb;&#x3b5;&#x3b9; &#x3b5;&#x3b9;&#x3b4;&#x3bf;&#x3c0;&#x3bf;&#x3b9;&#x3ae;&#x3c3;&#x3b5;&#x3b9;&#x3c2; &#x3b1;&#x3bd; &#x3ba;&#x3ac;&#x3c0;&#x3bf;&#x3b9;&#x3bf;&#x3c2; &#x3b1;&#x3c0;&#x3cc; &#x3c4;&#x3bf;&#x3c5;&#x3c2; &#x3c6;&#x3af;&#x3bb;&#x3bf;&#x3c5;&#x3c2; &#x3c3;&#x3b1;&#x3c2; &#x3ad;&#x3c7;&#x3b5;&#x3b9; &#x3b3;&#x3b5;&#x3bd;&#x3ad;&#x3b8;&#x3bb;&#x3b9;&#x3b1; &#x3ae; &#x3bf;&#x3bd;&#x3bf;&#x3bc;&#x3b1;&#x3c3;&#x3c4;&#x3b9;&#x3ba;&#x3ae; &#x3b3;&#x3b9;&#x3bf;&#x3c1;&#x3c4;&#x3ae; &#x3c4;&#x3b7;&#x3bd; &#x3c4;&#x3c1;&#x3ad;&#x3c7;&#x3bf;&#x3c5;&#x3c3;&#x3b1; &#x3b7;&#x3bc;&#x3ad;&#x3c1;&#x3b1;. &#x39c;&#x3c0;&#x3bf;&#x3c1;&#x3b5;&#x3af;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c6;&#x3b5;&#x3c4;&#x3b5; &#x3c6;&#x3af;&#x3bb;&#x3bf;&#x3c5;&#x3c2; &#x3b1;&#x3c0;&#x3cc; &#x3c4;&#x3b7; &#x3bb;&#x3af;&#x3c3;&#x3c4;&#x3b1; &#x3c0;&#x3b1;&#x3c4;&#x3ce;&#x3bd;&#x3c4;&#x3b1;&#x3c2; &#x3c4;&#x3bf; &#x3ba;&#x3cc;&#x3ba;&#x3ba;&#x3b9;&#x3bd;&#x3bf; &#x3ba;&#x3b1;&#x3bb;&#x3ac;&#x3b8;&#x3b9; &#x3ba;&#x3b1;&#x3b9; &#x3b3;&#x3c1;&#x3ac;&#x3c6;&#x3bf;&#x3bd;&#x3c4;&#x3b1;&#x3c2; &#x3c4;&#x3b1; &#x3c3;&#x3c4;&#x3bf;&#x3b9;&#x3c7;&#x3b5;&#x3af;&#x3b1; &#x3c4;&#x3bf;&#x3c5; &#x3c6;&#x3af;&#x3bb;&#x3bf;&#x3c5; &#x3c0;&#x3bf;&#x3c5; &#x3b8;&#x3ad;&#x3bb;&#x3b5;&#x3c4;&#x3b5; &#x3bd;&#x3b1; &#x3b4;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c8;&#x3b5;&#x3c4;&#x3b5;.&#xa;&#xa;&#x391;&#x3c0;&#x3bf;&#x3bb;&#x3b1;&#x3cd;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3b7;&#x3bd; &#x3b5;&#x3bc;&#x3c0;&#x3b5;&#x3b9;&#x3c1;&#x3af;&#x3b1; &#x3c7;&#x3c1;&#x3ae;&#x3c3;&#x3b7;&#x3c2; &#x3c4;&#x3bf;&#x3c5; &#x397;&#x39c;&#x395;&#x3a1;&#x39f;&#x39b;&#x39f;&#x393;&#x399;&#x39f;&#x39d; 2.0 &#x3ba;&#x3b1;&#x3b9; &#x3bf;&#x3c1;&#x3b3;&#x3b1;&#x3bd;&#x3ce;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3b7; &#x3bc;&#x3ad;&#x3c1;&#x3b1; &#x3c3;&#x3b1;&#x3c2; &#x3bc;&#x3b5; &#x3b5;&#x3c5;&#x3ba;&#x3bf;&#x3bb;&#x3af;&#x3b1;!"/>
+                <Property name="wrapStyleWord" type="boolean" value="true"/>
+                <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="getBackground()" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="&#x397;&#x39c;&#x395;&#x3a1;&#x39f;&#x39b;&#x39f;&#x393;&#x399;&#x39f;&#x39d; 2.0"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" pref="768" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="arxikh_panel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x391;&#x3a1;&#x3a7;&#x399;&#x39a;&#x397; &#x3a3;&#x395;&#x39b;&#x399;&#x394;&#x391;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x391;&#x3a1;&#x3a7;&#x399;&#x39a;&#x397; &#x3a3;&#x395;&#x39b;&#x399;&#x394;&#x391;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="month_label" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                      <Component id="year_label" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="day_label" min="-2" max="-2" attributes="0"/>
+                                  <Component id="infoHelpButton1" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="date_num_label" min="-2" pref="408" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="219" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="customCalendar" alignment="1" min="-2" pref="385" max="-2" attributes="0"/>
+                          <Component id="addButton1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="day_label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="date_num_label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="year_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="month_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="customCalendar" min="-2" pref="402" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="86" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="addButton1" min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="infoHelpButton1" min="-2" pref="51" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="CustomCalendar" name="customCalendar">
+            </Component>
+            <Component class="javax.swing.JLabel" name="day_label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="78" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="date_num_label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="124" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="month_label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="78" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="year_label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="78" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel4"/>
+              </Properties>
+            </Component>
+            <Component class="AddButton" name="addButton1">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="&#x3a0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ad;&#x3c3;&#x3c4;&#x3b5; &#x3ad;&#x3bd;&#x3b1; &#x3bd;&#x3ad;&#x3bf; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c2;."/>
+                <Property name="radius" type="int" value="500"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="InfoHelpButton" name="infoHelpButton1">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="&#x394;&#x3b5;&#x3af;&#x3c4;&#x3b5; &#x3c0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3af;&#x3b5;&#x3c2; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b9;&#x3c2; &#x3b2;&#x3b1;&#x3c3;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x3bb;&#x3b5;&#x3b9;&#x3c4;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3af;&#x3b5;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x3c4;&#x3b7;&#x3bd; &#x3c0;&#x3bb;&#x3bf;&#x3ae;&#x3b3;&#x3b7;&#x3c3;&#x3b7; &#x3c3;&#x3c4;&#x3b7;&#x3bd; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae;."/>
+                <Property name="radius" type="int" value="13"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="infoHelpButton1ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="scroll">
+          <Properties>
+            <Property name="columnHeaderView" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x393;&#x395;&#x393;&#x39f;&#x39d;&#x39f;&#x3a4;&#x391;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x393;&#x395;&#x393;&#x39f;&#x39d;&#x39f;&#x3a4;&#x391;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="outerPanel">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="12"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                <Property name="axis" type="int" value="1"/>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="form_panel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x3a6;&#x39f;&#x3a1;&#x39c;&#x391;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x3a6;&#x39f;&#x3a1;&#x39c;&#x391;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="giorth_label" min="-2" max="-2" attributes="0"/>
+                                  <Component id="genethlia_label" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                                      <Component id="insertButton1" min="-2" pref="183" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace pref="401" max="32767" attributes="0"/>
+                                      <Component id="MonthChooserGen" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="surname_label" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="name_label" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="surname" min="-2" pref="335" max="-2" attributes="0"/>
+                                  <Component id="name" min="-2" pref="335" max="-2" attributes="0"/>
+                                  <Component id="spinGen" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="spinGio" min="-2" pref="88" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="MonthChooserGio" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="surname_info" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="name_info" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="genethlia_info" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="giorth_info" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="283" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="109" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="name" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="name_info" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="name_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="surname" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="surname_info" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="surname_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="genethlia_label" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="genethlia_info" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                              <Component id="giorth_info" min="-2" pref="29" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="MonthChooserGen" pref="35" max="32767" attributes="0"/>
+                                  <Component id="spinGen" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="spinGio" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                          <Component id="giorth_label" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                      <Component id="MonthChooserGio" min="-2" pref="35" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                      <Component id="insertButton1" min="-2" pref="54" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="name_label">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="927"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new Font(&quot;&#x391;rvo&quot;, Font.PLAIN, 20)" type="code"/>
+                </Property>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="name"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x38c;&#x3bd;&#x3bf;&#x3bc;&#x3b1;:"/>
+                <Property name="displayedMnemonicIndex" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="surname_label">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="917"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new Font(&quot;&#x391;rvo&quot;, Font.PLAIN, 20)" type="code"/>
+                </Property>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="surname"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x395;&#x3c0;&#x3af;&#x3b8;&#x3b5;&#x3c4;&#x3bf;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="genethlia_label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new Font(&quot;&#x391;rvo&quot;, Font.PLAIN, 20)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x397;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1; &#x3b3;&#x3b5;&#x3bd;&#x3b5;&#x3b8;&#x3bb;&#x3af;&#x3c9;&#x3bd;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="giorth_label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new Font(&quot;&#x391;rvo&quot;, Font.PLAIN, 20)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x397;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1; &#x3bf;&#x3bd;&#x3bf;&#x3bc;&#x3b1;&#x3c3;&#x3c4;&#x3b9;&#x3ba;&#x3ae;&#x3c2; &#x3b5;&#x3bf;&#x3c1;&#x3c4;&#x3ae;&#x3c2;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="name">
+            </Component>
+            <Component class="javax.swing.JTextField" name="surname">
+            </Component>
+            <Component class="javax.swing.JLabel" name="name_info">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="?"/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x3a3;&#x3c5;&#x3bc;&#x3c0;&#x3bb;&#x3b7;&#x3c1;&#x3ce;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3cc;&#x3bd;&#x3bf;&#x3bc;&#x3b1; &#x3c4;&#x3bf;&#x3c5; &#x3b1;&#x3c4;&#x3cc;&#x3bc;&#x3bf;&#x3c5; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b7;&#x3bd; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1; &quot;&#x39f;&#x399; &#x3a6;&#x399;&#x39b;&#x39f;&#x399; &#x39c;&#x39f;&#x3a5;&quot;."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="surname_info">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="?"/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x3a3;&#x3c5;&#x3bc;&#x3c0;&#x3bb;&#x3b7;&#x3c1;&#x3ce;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3bf; &#x3b5;&#x3c0;&#x3af;&#x3b8;&#x3b5;&#x3c4;&#x3bf; &#x3c4;&#x3bf;&#x3c5; &#x3b1;&#x3c4;&#x3cc;&#x3bc;&#x3bf;&#x3c5; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b7;&#x3bd; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1; &quot;&#x39f;&#x399; &#x3a6;&#x399;&#x39b;&#x39f;&#x399; &#x39c;&#x39f;&#x3a5;&quot;."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="genethlia_info">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="?"/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x3a3;&#x3c5;&#x3bc;&#x3c0;&#x3bb;&#x3b7;&#x3c1;&#x3ce;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3b7;&#x3bd; &#x3b7;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1; &#x3c4;&#x3c9;&#x3bd; &#x3b3;&#x3b5;&#x3bd;&#x3b5;&#x3b8;&#x3bb;&#x3af;&#x3c9;&#x3bd; &#x3c4;&#x3bf;&#x3c5; &#x3b1;&#x3c4;&#x3cc;&#x3bc;&#x3bf;&#x3c5; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b7;&#x3bd; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1; &quot;&#x39f;&#x399; &#x3a6;&#x399;&#x39b;&#x39f;&#x399; &#x39c;&#x39f;&#x3a5;&quot;."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="giorth_info">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="?"/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x3a3;&#x3c5;&#x3bc;&#x3c0;&#x3bb;&#x3b7;&#x3c1;&#x3ce;&#x3c3;&#x3c4;&#x3b5; &#x3c4;&#x3b7;&#x3bd; &#x3b7;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b1; &#x3c4;&#x3b7;&#x3c2; &#x3bf;&#x3bd;&#x3bf;&#x3bc;&#x3b1;&#x3c3;&#x3c4;&#x3b9;&#x3ba;&#x3ae;&#x3c2; &#x3b5;&#x3bf;&#x3c1;&#x3c4;&#x3ae;&#x3c2; &#x3c4;&#x3bf;&#x3c5; &#x3b1;&#x3c4;&#x3cc;&#x3bc;&#x3bf;&#x3c5; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3b7;&#x3bd; &#x3ba;&#x3b1;&#x3c1;&#x3c4;&#x3ad;&#x3bb;&#x3b1; &quot;&#x39f;&#x399; &#x3a6;&#x399;&#x39b;&#x39f;&#x399; &#x39c;&#x39f;&#x3a5;&quot;."/>
+              </Properties>
+            </Component>
+            <Component class="InsertButton" name="insertButton1">
+              <Properties>
+                <Property name="radius" type="int" value="13"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="insertButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="com.toedter.calendar.JMonthChooser" name="MonthChooserGen">
+            </Component>
+            <Component class="com.toedter.calendar.JMonthChooser" name="MonthChooserGio">
+            </Component>
+            <Component class="com.toedter.components.JSpinField" name="spinGen">
+              <Properties>
+                <Property name="maximum" type="int" value="31"/>
+                <Property name="minimum" type="int" value="1"/>
+                <Property name="value" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="calendar.get(Calendar.DAY_OF_MONTH)&#xd;&#xa;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="com.toedter.components.JSpinField" name="spinGio">
+              <Properties>
+                <Property name="maximum" type="int" value="31"/>
+                <Property name="minimum" type="int" value="1"/>
+                <Property name="value" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="calendar.get(Calendar.DAY_OF_MONTH)&#xd;&#xa;" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="friends_panel">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1280, 768]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x39f;&#x399; &#x3a6;&#x399;&#x39b;&#x39f;&#x399; &#x39c;&#x39f;&#x3a5;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x39f;&#x399; &#x3a6;&#x399;&#x39b;&#x39f;&#x399; &#x39c;&#x39f;&#x3a5;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="1" pref="1280" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="deleteButton21" min="-2" pref="104" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane4" min="-2" pref="601" max="-2" attributes="0"/>
+                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                      <Component id="deleteButton21" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="friends_table">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="0">
+                        <Column editable="true" title="&#x39f;&#x39d;&#x39f;&#x39c;&#x391;" type="java.lang.String"/>
+                        <Column editable="true" title="&#x395;&#x3a0;&#x399;&#x398;&#x395;&#x3a4;&#x39f;" type="java.lang.String"/>
+                        <Column editable="true" title="&#x393;&#x395;&#x39d;&#x395;&#x398;&#x39b;&#x399;&#x391;" type="java.lang.String"/>
+                        <Column editable="true" title="&#x393;&#x399;&#x39f;&#x3a1;&#x3a4;&#x397;" type="java.lang.String"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="DeleteButton2" name="deleteButton21">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="&#x394;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3ac;&#x3c8;&#x3c4;&#x3b5; &#x3ad;&#x3bd;&#x3b1;&#x3bd; &#x3c6;&#x3af;&#x3bb;&#x3bf;."/>
+                <Property name="radius" type="int" value="13"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButton21ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="about_panel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="ABOUT">
+                <Property name="tabTitle" type="java.lang.String" value="ABOUT"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
+                      <Component id="jLabel18" min="-2" pref="248" max="-2" attributes="0"/>
+                      <EmptySpace pref="196" max="32767" attributes="0"/>
+                      <Component id="jScrollPane5" min="-2" pref="547" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
+                              <Component id="jLabel18" min="-2" pref="242" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="jScrollPane5" min="-2" pref="469" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="155" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/resources/me.jpg"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[261, 233]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="new Color(0,0,0,0)" type="code"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="new Font(&quot;Arvo&quot;, Font.PLAIN, 24)" type="code"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#x39a;&#x3b1;&#x3bb;&#x3c9;&#x3c3;&#x3bf;&#x3c1;&#x3af;&#x3c3;&#x3b1;&#x3c4;&#x3b5; &#x3c3;&#x3c4;&#x3bf; &#x201c;&#x397;&#x39c;&#x395;&#x3a1;&#x39f;&#x39b;&#x39f;&#x393;&#x399;&#x39f;&#x39d; 2.0&#x201d;, &#x3bc;&#x3b9;&#x3b1; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae; &#x3b7;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bb;&#x3bf;&#x3b3;&#x3af;&#x3bf;&#x3c5; &#x3c0;&#x3bf;&#x3c5; &#x3b4;&#x3b7;&#x3bc;&#x3b9;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3ae;&#x3b8;&#x3b7;&#x3ba;&#x3b5; &#x3b1;&#x3c0;&#x3cc; &#x3c4;&#x3bf;&#x3bd; &#x391;&#x3c1;&#x3c3;&#x3ad;&#x3bd;&#x3b9;&#x3bf; &#x39d;&#x3b1;&#x3bd;&#x3c4;&#x3b9;&#x3c1;&#x3b1;&#x3c3;&#x3b2;&#x3af;&#x3bb;&#x3b9;, &#x3c6;&#x3bf;&#x3b9;&#x3c4;&#x3b7;&#x3c4;&#x3ae; &#x3c4;&#x3bf;&#x3c5; &#x3a4;&#x3bc;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2; &#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3b9;&#x3ba;&#x3ce;&#x3bd; &#x3a0;&#x3bb;&#x3b7;&#x3c1;&#x3bf;&#x3c6;&#x3bf;&#x3c1;&#x3b9;&#x3ba;&#x3ae;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x397;&#x3bb;&#x3b5;&#x3ba;&#x3c4;&#x3c1;&#x3bf;&#x3bd;&#x3b9;&#x3ba;&#x3ce;&#x3bd; &#x3a3;&#x3c5;&#x3c3;&#x3c4;&#x3b7;&#x3bc;&#x3ac;&#x3c4;&#x3c9;&#x3bd; &#x3c4;&#x3bf;&#x3c5; &#x394;&#x399;.&#x3a0;&#x391;.&#x395;. &#x397; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae; &#x3b1;&#x3c5;&#x3c4;&#x3ae; &#x3b1;&#x3bd;&#x3b1;&#x3c0;&#x3c4;&#x3cd;&#x3c7;&#x3b8;&#x3b7;&#x3ba;&#x3b5; &#x3c3;&#x3c4;&#x3bf; &#x3c0;&#x3bb;&#x3b1;&#x3af;&#x3c3;&#x3b9;&#x3bf; &#x3c4;&#x3bf;&#x3c5; &#x3bc;&#x3b1;&#x3b8;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2; &#x201c;&#x391;&#x3bb;&#x3bb;&#x3b7;&#x3bb;&#x3b5;&#x3c0;&#x3af;&#x3b4;&#x3c1;&#x3b1;&#x3c3;&#x3b7; &#x391;&#x3bd;&#x3b8;&#x3c1;&#x3ce;&#x3c0;&#x3bf;&#x3c5;-&#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3ae;&#x3c2;&#x201d; &#x3ba;&#x3b1;&#x3b9; &#x3b4;&#x3b9;&#x3b1;&#x3b8;&#x3ad;&#x3c4;&#x3b5;&#x3b9; &#x3b4;&#x3c5;&#x3bd;&#x3b1;&#x3c4;&#x3cc;&#x3c4;&#x3b7;&#x3c4;&#x3b1; &#x3c0;&#x3c1;&#x3bf;&#x3c3;&#x3b8;&#x3ae;&#x3ba;&#x3b7;&#x3c2; &#x3b3;&#x3b5;&#x3b3;&#x3bf;&#x3bd;&#x3cc;&#x3c4;&#x3c9;&#x3bd; &#x3b3;&#x3b9;&#x3b1; &#x3c3;&#x3c5;&#x3b3;&#x3ba;&#x3b5;&#x3ba;&#x3c1;&#x3b9;&#x3bc;&#x3ad;&#x3bd;&#x3b5;&#x3c2; &#x3bc;&#x3ad;&#x3c1;&#x3b5;&#x3c2; &#x3ba;&#x3b1;&#x3b8;&#x3ce;&#x3c2; &#x3ba;&#x3b1;&#x3b9; &#x3b5;&#x3b9;&#x3b4;&#x3bf;&#x3c0;&#x3bf;&#x3b9;&#x3ae;&#x3c3;&#x3b5;&#x3b9;&#x3c2; &#x3b3;&#x3b9;&#x3b1; &#x3c3;&#x3b7;&#x3bc;&#x3b1;&#x3bd;&#x3c4;&#x3b9;&#x3ba;&#x3ad;&#x3c2; &#x3b7;&#x3bc;&#x3b5;&#x3c1;&#x3bf;&#x3bc;&#x3b7;&#x3bd;&#x3af;&#x3b5;&#x3c2;.&#xa;&#xa;&#x395;&#x3bb;&#x3c0;&#x3af;&#x3b6;&#x3c9; &#x3b7; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae; &#x3b1;&#x3c5;&#x3c4;&#x3ae; &#x3bd;&#x3b1; &#x3bc;&#x3b5; &#x3b2;&#x3bf;&#x3b7;&#x3b8;&#x3ae;&#x3c3;&#x3b5;&#x3b9; &#x3bd;&#x3b1; &#x3c0;&#x3b5;&#x3c1;&#x3ac;&#x3c3;&#x3c9; &#x3c4;&#x3bf; &#x3bc;&#x3ac;&#x3b8;&#x3b7;&#x3bc;&#x3b1; &#x3ba;&#x3b1;&#x3b9; &#x3bd;&#x3b1; &#x3b1;&#x3c0;&#x3bf;&#x3c4;&#x3b5;&#x3bb;&#x3ad;&#x3c3;&#x3b5;&#x3b9; &#x3c4;&#x3b7; &#x3b2;&#x3ac;&#x3c3;&#x3b7; &#x3b3;&#x3b9;&#x3b1; &#x3ba;&#x3ac;&#x3c4;&#x3b9; &#x3bc;&#x3b5;&#x3b3;&#x3b1;&#x3bb;&#x3cd;&#x3c4;&#x3b5;&#x3c1;&#x3bf; &#x3c3;&#x3c4;&#x3bf; &#x3bc;&#x3ad;&#x3bb;&#x3bb;&#x3bf;&#x3bd;!"/>
+                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
