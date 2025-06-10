@@ -35,4 +35,4 @@ To ΗΜΕΡΟΛΟΓΙΟΝ 2.0 είναι μια desktop εφαρμογή ηλε�
 
 ## Εγκατάσταση
 1. Απαιτείται JRE (Java Runtime Environment)
-2. Κλώνος του repository: 
+2. Κλώνος του repository: https://github.com/arseniosnadira/Calendar2.0.git
